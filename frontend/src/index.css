@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+/* Add this in your CSS or global styles */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar */
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE/Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .nav-link {
+    position: relative;
+    padding-bottom: 4px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #EB5757;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover::after,
+  .nav-link.active::after {
+    width: 100%;
+  }
+  
+  
