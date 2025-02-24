@@ -35,7 +35,7 @@ function Hero() {
                     </button>
 
                     {/* Watch Video */}
-                    <div className="items-center justify-center gap-[10px] sm:gap-[12px] cursor-pointer flex sm:flex hidden lg:flex transition-all duration-300 hover:scale-105 hover:text-yellow-600">
+                    <div className="items-center justify-center gap-[10px] sm:gap-[12px] cursor-pointer sm:flex hidden lg:flex transition-all duration-300 hover:scale-105 hover:text-yellow-600">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"

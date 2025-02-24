@@ -8,18 +8,15 @@ import Menu from "./components/Menu";
 
 function App() {
   return ( 
-    <div>
-
-      <Navbar />
-      <Hero />
-      <Delivery />
-      <Menu />
-      <Download />
-      <Footer />
-
-      {/* <Cart /> */}
-      
-    </div>
+    <div className="w-[96%] max-w-[1400px] mx-auto py-5">
+    {/* Your existing components */}
+    <Navbar />
+    <Hero />
+    <Delivery />
+    <Menu />
+<Download />
+    <Footer />
+  </div>
    );
 }
 
