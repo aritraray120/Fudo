@@ -1,10 +1,8 @@
-
-
 import { assets } from "../assets/assets";
 
 function Download() {
   return (
-    <div className="flex flex-col items-center text-center gap-10 mb-40">
+    <div className="flex flex-col items-center text-center gap-10 mb-40" id="download">
       <h2 className="text-3xl sm:text-5xl font-bold text-[#333333]">
         For a Smoother Experience,<br />Try Fudo App!
       </h2>

@@ -14,7 +14,6 @@ function Navbar() {
                 <a href="#menu" className="nav-link">Menu</a>
                 <a href="#download" className="nav-link">Download</a>
                 <a href="#footer" className="nav-link">Contact</a>
-
             </div>
 
             <div className="flex items-center gap-[22px]">
