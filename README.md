@@ -8,7 +8,7 @@ A sleek and modern food delivery web app. Fully responsive and optimized for mul
 ✅ Fast and smooth performance  
 
 ## 🛠 Tech Stack  
-- **React.js** – Frontend framework  
+- **React.js** – Frontend library    
 - **Tailwind CSS** – Styling  
 - **JavaScript (ES6+)** – Logic handling  
 
