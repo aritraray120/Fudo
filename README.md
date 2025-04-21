@@ -1,7 +1,7 @@
 # Fudo - Food Delivery App  
 🔗 **Live Demo:** https://fudo-omega.vercel.app/  
 
-An efficient food delivery web app. Fully responsive and optimized for multiple screen sizes.  
+A responsive food ordering web app built with React.js, featuring menu-based item filtering and smooth functionality. 
 
 ## 🛠 Tech Stack  
 - **React.js** – Frontend library    
